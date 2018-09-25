@@ -6,7 +6,7 @@ class HelloWorldTestCase(unittest.TestCase):
 
     def test_is_output_hw(self):
         """Is the output of your Python application what you expect?"""
-        self.assertTrue(hello_world() == "Hello updated world from Pipelines!")
+        self.assertTrue(hello_world() == "Hello world from Pipelines!")
 
 if __name__ == '__main__':
     unittest.main()
